@@ -1,0 +1,17 @@
+{
+  "name": "cyberkitten-portfolio",
+  "version": "1.0.0",
+  "description": "🐾 小可怜的赛博小窝",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jsdom": "^22.0.0"
+  }
+}

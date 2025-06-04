@@ -26,3 +26,8 @@ function showPopup(bool) {
     document.getElementById('popup').style.visibility = 'hidden'
   }
 }
+
+// Export functions for testing in Node environment
+if (typeof module !== 'undefined') {
+  module.exports = { addRecommendation, showPopup };
+}
